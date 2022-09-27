@@ -1,0 +1,402 @@
+POPPINS FONT FAMILY
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #f8f8fa;
+}
+
+
+/* header */
+header{
+ background-color:#4617FE ;
+ max-height: 400px;
+ color: #fff;
+ font-family: poppins;
+}
+
+nav{
+  float: right;
+  padding: 10px 30px;
+ 
+}
+nav a{
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.logo{
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.nav-item-active{
+  border-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #4617FE;
+}
+
+.header-text{
+  /* float: left; */
+  padding: 50px 20px;
+  max-width: 400px;
+}
+.header-text h2{
+  font-size: 20px;
+}
+
+.header-image{
+  position: relative;
+  bottom: 300px;
+ padding-left: 67%;
+ max-width: 500px;
+ max-height: 500px;
+}
+
+
+/* companies */
+.companies{
+  padding: 10px 30px;
+}
+.companies a{
+  text-decoration: none;
+  color: #000;
+  padding: 10px 20px;
+  font-family: 'Righteous';
+  font-weight: bold; 
+  cursor: pointer;
+}
+
+
+/* cards */
+.api-heading{
+  font-family: poppins;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+.cards{
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: poppins;
+  
+}
+.card-active,.card-logo,.card-head-active,.card-body,.card{
+  padding: 0px 15px;
+}
+.card-logo{
+  padding: 10px 0;
+}
+.card-head-active{
+  color:#5a31fc ;
+}
+.card-body{
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.card-active:hover,.card:hover{
+  background-color:#ffffff;
+  box-shadow: .5rem .5rem .75rem -.25rem rgba(0, 0, 0, .3);
+  border-radius: 25px;
+ cursor: pointer;
+}
+
+
+
+/* blog-heading */
+.blog-heading{
+  padding: 10px 30px;
+  font-family: poppins;
+}
+.blog-cards{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 50px 50px 50px;
+  height: 300px;
+  width: 100%;
+}
+.blog-image{
+  padding-right: 30px;
+  
+}
+.blog-card,.blog-content h6 h3 small{
+  padding: 10px 40px;
+  font-family: poppins;
+  display: flex;
+  background-color:#ffffff;
+  box-shadow: .5rem .5rem .75rem -.25rem rgba(188, 181, 181, 0.3);
+  border-radius: 25px;
+}
+.blog-content h6{
+  color:#5930fd ;
+}
+.blog-author,.blog-bottom{
+ padding-top: 5px;
+ padding-bottom: 0;
+ padding-left: 10px;
+ padding-right: 10px;
+ display: flex;
+}
+
+.blog-bottom img{
+  padding-top: 5px;
+  padding-bottom: 0;
+}
+
+/* FAQ SECTION */
+.faq-section{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0px;
+  background-color: #e9edff;
+  font-family: poppins;
+}
+
+.faq-content{
+  padding: 10px 50px;
+}
+.faq-content h2{
+ font-size: 30px;
+ font-weight: bolder;
+}
+.faq-content h4{
+  font-size: 10px;
+  font-weight: lighter;
+}
+.faq-content h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+.faq-section img{
+  height: 100%;
+}
+.faq-section button{
+  background-color: #4617FE;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+ /* Download */
+ .download-section{
+  padding: 50px 50px;
+  font-family: poppins;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.download-content span{
+  font-weight: lighter;
+}
+
+.download-email input{
+  border-radius: 25px;
+  background-color: #e9edff;
+  border: #fff;
+  padding: 15px 30px 15px 10px;
+  width: 500px;
+}
+
+.download-email button{
+  position: relative;
+  left: -110px;
+  border-radius: 25px;
+  border: #fff;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+  background-color: #4617FE;
+}
+
+
+
+/* Footer */
+
+.footer-section{
+  padding: 50px 50px;
+  background-color: #4718fe;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.footer-left  ul li{
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
+  padding-right: 30px;
+  font-family: poppins;
+  cursor: pointer;
+}
+.footer-logo{
+  cursor: pointer;
+}
+.footer-left .footer-logo{
+  padding-right: 100px;
+}
+
+.footer-right  ul li{
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
+  padding-right: 30px;
+  font-family: poppins;
+  cursor: pointer;
+}
+
+.footer-right img{
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+
+
+
+/* @media query */
+
+@media  screen and (max-width:1200px) {
+  /* footer */
+  .footer-left  ul li,.footer-right  ul li{
+    text-align: center;
+    font-size: 10px;
+  }
+  .footer-left img{
+    width: 100px;
+  }
+  .footer-section{
+    max-height: 50px;
+   
+  }
+  /* download */
+  .download-content{
+    font-size: 10px;
+   
+  }
+  .download-email input{
+   width: 350px;
+   font-size: 10px;
+   float: right;
+  }
+  .download-email button{
+    position: relative;
+    left: 385px;
+    top: 5px;
+    font-size: 10px;
+  }  
+
+
+  /* fax section */
+  .faq-content h2,.faq-content h3{
+    font-size: 20px;
+    font-weight: bolder;
+   }
+  .faq-section img{
+    height: 100%;
+    width: 100%;
+
+  }
+  .faq-content{
+    max-height: 100%;
+    
+  }
+  .faq-section button{
+    font-size: 10px;
+  }
+
+
+  /* Blog section */
+  /* blog-heading */
+  .blog-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 10px;
+    height: 210px;
+    width: 100%;
+  }
+.blog-heading{
+  padding: 10px 30px;
+  font-size: 10px;
+}
+.blog-card,.blog-content h6 h3 small{
+  padding: 10px 10px;
+  font-family: poppins;
+  display: flex;
+  background-color:#ffffff;
+  box-shadow: .5rem .5rem .75rem -.25rem rgba(188, 181, 181, 0.3);
+  border-radius: 25px;
+  font-size: 10px;
+}
+
+.blog-image img{
+   height: 200px;
+}
+.blog-bottom img{
+   width: 50px;
+   padding-top: 20px;
+}
+.blog-bottom b{
+  padding-top: 20px;
+}
+
+/* cards */
+.api-heading{
+  font-family: poppins;
+  padding: 20px 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-active h3 ,.card h3{
+  font-size: 15px;
+}
+.card-active p,.card p {
+  font-size: 10px;
+}
+
+
+/* companies */
+.companies {
+  padding: 10px 10px;
+}
+.companies a{
+  font-size: 15px;
+}
+
+
+/* header */
+header{
+  max-height: 300px;
+}
+.logo{
+  width: 100px;
+}
+.nav-item{
+  font-size: 15px;
+}
+.header-text img{
+  width: 30px;
+}
+.header-text h2{
+  font-size: 15px;
+}
+.header-text p{
+  font-size: 12px;
+}
+.header-image{
+  position: relative;
+  right: 80px;
+  bottom: 15rem;
+  max-width: 350px;
+  max-height: 400px;
+}
+
+}
+
+
